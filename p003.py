@@ -5,7 +5,7 @@ def largest_prime_factor(number):
 
     """create a function that creates an array of prime values up to square root of the number"""
     prime_values = []
-    max_prime_number = sqrt(number)
+    max_prime_number = math.sqrt(number)
 
     for i in range(max_prime_number):
         for j in range(max_prime_number):
